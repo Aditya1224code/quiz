@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Random Quiz App</h1>
+    
+    <div id="quizBox">
+      <div id="questionBox">
+        <p id="question">Loading question...</p>
+        <div id="options"></div>
+      </div>
+      <div class="info">
+        <p id="timer">⏳ 15s</p>
+        <p id="scoreBoard">Score: 0</p>
+      </div>
+    </div>
+
+    <div id="resultBox" class="hidden">
+      <h2>Quiz Completed 🎉</h2>
+      <p id="score"></p>
+      <button onclick="showReview()">Check Wrong Answers</button>
+      <div id="reviewBox"></div>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+                          
